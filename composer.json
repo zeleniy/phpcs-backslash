@@ -1,15 +1,14 @@
 {
-	"name": "soderlind/coding-standard",
-	"description": "PHP CodeSniffer sniff that checks if all global PHP functions are fully qualified.",
-	"require": {
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.5"
-	},
-	"type": "phpcodesniffer-standard",
-	"license": "MIT",
-    "authors": [
-        {
-            "name": "Per Søderlind",
-            "email": "per@soderlind.no"
+    "name": "zeleniy/phpcs-backslash",
+    "description": "PHP CodeSniffer sniff that checks if all global PHP functions are fully qualified.",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
-	]
+    }
 }
